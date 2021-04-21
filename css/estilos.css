@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,400;1,700&display=swap');
+
+:root{
+   --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+   --color-primary:#667eea;
+   --color-secondary:#764ba2;
+   --boton-padding: 20px 40px;
+
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+
+
+
+
+
+
+}
+.camping_container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+    max-width: 1200px;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    justify-items: center;
+    align-items: center;
+    
+
+
+
+}
+.camping_parrafo{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+
+
+}
+
+.camping__img{
+    text-align: center;
+
+
+}
+
+.camping__img--left{
+    text-align: left;
+}
+
+.camping__picture{
+    max-width: 80%;
+}
+
+
+.subtitle{
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    margin-bottom: 35px
+}
+
+.hero{
+    height: 100vh;
+    background-image: var(--background), url('../desarrollo web/torres-del-paine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+
+
+    
+
+
+}
+.hero .container {
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+
+}
+
+.nav--footer{
+    font-weight: 300;
+    justify-content: flex-start;
+
+    
+}
+.nav__items{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight:  inherit;
+
+
+}
+
+.nav__items--cta{
+    border: 1px solid #fff;
+
+  
+}
+.nav__items-footer{
+    padding: 10px;
+
+
+}
+
+.hero__container{
+    display: felx;
+    height: calc(100vh - 70px);
+    align-items:  center;
+    color: #fff;
+
+
+}
+.hero__texts{
+    width: 80%;
+     margin-bottom: 50px;
+}
+
+.hero__title{
+    font-size: 4.2rem ;
+}
+
+.hero__subtitle{
+    font: size 2.3rem; ;
+}
+
+.hero__cta{
+    display: inline-block;
+    background: #fff;
+    padding: var(--boton-padding);
+    color: var(--color-primary);
+    text-decoration: none;
+    border-radius: 40px;
+
+    
+}
+
+.hero__wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height: 60%;
+    
+}
+.presnt_container{
+    background-color: #f5f5f5; 
+    padding: 0;
+    text-align: center;
+
+
+}
+.presentation__img{
+    width: 150px;
+    height:150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+
+
+}
+.presentation__team{
+    width: 88%;
+    margin: 0 auto;
+
+
+}
+.presentation_cta{
+    display: inline-block;
+    margin-top: 30px;
+    background: var(--color-primary);
+    color: #fff;
+    text-decoration: aqua;
+    padding: var(--boton-padding);
+    border-radius: 40px;
+
+}
+
+.contenedor_tabla{
+    background: #f5f5f5;
+
+}
+.contenedor_tabla{
+    width: 90%;
+    max-width:900px;
+    margin: auto;
+    height:  90vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.tabla{
+    width: 33%;
+    height: 550px;
+    margin: auto;
+    border:1px solid #343759;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px #353759;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 1;
+    color: #343769;
+
+
+    
+}
+
+.tabla>h2{
+    font-size:30px;
+    margin-bottom:  35px;
+
+}
+.tabla_img{
+    width: 64px;
+    margin-bottom: 35px;
+
+}
+.tabla > h3{
+    font-size:30px;
+    margin: 20px;
+
+}
+
+.tabla > p{
+    display: block;
+    margin-bottom: 20px;
+}
+.boton{
+    display:inline-block;
+    width: 150px;
+    padding: 12px;
+    background: #a5f059;
+    text-decoration:none;
+    color:#343759;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin:auto;
+
+
+}
+
+
+
